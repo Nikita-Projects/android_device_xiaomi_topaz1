@@ -1,4 +1,4 @@
-# Unpinned blobs from missi-user 15 AQ3A.240829.003 OS2.0.8.0.VMGMIXM release-keys
+# Unpinned blobs from topaz OS2.0.8.0.VMGMIXM
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb

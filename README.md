@@ -1,4 +1,4 @@
-# Android device tree for Android mainline (generic)
+# Device tree for Redmi Note 12 4G (topaz)
 
 ```
 #

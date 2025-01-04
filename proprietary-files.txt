@@ -1005,6 +1005,30 @@ vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 system_ext/lib/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 
+# Touch Firmware
+odm/firmware/Conf_MultipleTest_ft3519t.ini:vendor/firmware/Conf_MultipleTest_ft3519t.ini
+odm/firmware/focaltech_ts_fw_samsung_ft3519t.bin:vendor/firmware/focaltech_ts_fw_samsung_ft3519t.bin
+odm/firmware/goodix_cfg_group.bin:vendor/firmware/goodix_cfg_group.bin
+odm/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
+odm/firmware/gtx8_limits_M395.csv:vendor/firmware/gtx8_limits_M395.csv
+
+vendor/firmware/aw87xxx_acf.bin
+vendor/firmware/fs1815.fsm
+vendor/firmware/gmu_gen70000.bin
+vendor/firmware/sipa.bin
+vendor/firmware/venus.mbn
+vendor/firmware/venus_4mb.mbn
+vendor/firmware/venus_4mb_unsigned.mbn
+vendor/firmware/venus_4mb_v6.mbn
+vendor/firmware/venus_4mb_v7.mbn
+vendor/firmware/venus_unsigned.mbn
+vendor/firmware/venus_v6.mbn
+vendor/firmware/venus_v7.mbn
+vendor/firmware/vpu20_1v.mbn
+vendor/firmware/vpu20_1v_unsigned.mbn
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
+
 # Display
 lib/vendor.qti.hardware.display.config-V1-ndk.so
 lib/vendor.qti.hardware.display.config-V10-ndk.so
@@ -1655,6 +1679,12 @@ vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_khaje_iot.xml
 vendor/etc/media_profiles_khaje_v0.xml
 
+# Media (VPU Firmware)
+vendor/firmware/vpu20_1v.mbn
+vendor/firmware/vpu20_1v_unsigned.mbn
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
+
 # Neural networks
 vendor/lib64/libhta.so
 
@@ -1668,6 +1698,10 @@ vendor/lib64/nfc_nci.st21nfc.st.so
 etc/libnfc-nci.conf
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
+
+# NFC Firmware
+vendor/firmware/st21nfc_fw.bin
+vendor/firmware/st21nfc_fw7.bin
 
 # PASR
 vendor/bin/hw/vendor.qti.memory.pasrmanager@1.0-service
@@ -2655,27 +2689,6 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 
 # Miscellaneous
-odm/bin/mrmd
-odm/etc/init/mrm.rc
-odm/etc/vintf/manifest/mrm.xml
-odm/etc/vintf/manifest_m7g.xml
-odm/etc/vintf/manifest_m7g_ss.xml
-odm/etc/vintf/manifest_m7in.xml
-odm/etc/vintf/manifest_m7in_ss.xml
-odm/etc/vintf/manifest_m7l.xml
-odm/etc/vintf/manifest_m7l_ss.xml
-odm/etc/vintf/manifest_m7n.xml
-odm/etc/vintf/manifest_m7n_ss.xml
-odm/etc/vintf/manifest_um7in.xml
-odm/etc/vintf/manifest_um7in_ss.xml
-odm/etc/device_info_qr_config.yml
-odm/etc/m7n_build.prop
-odm/etc/mimdconfig
-odm/firmware/Conf_MultipleTest_ft3519t.ini
-odm/firmware/focaltech_ts_fw_samsung_ft3519t.bin
-odm/firmware/goodix_cfg_group.bin
-odm/firmware/goodix_firmware.bin
-odm/firmware/gtx8_limits_M395.csv
 odm/lib/libmlipay.so
 odm/lib/libteeclientjni.so
 odm/lib64/libmiriskmanager.so
@@ -2954,24 +2967,6 @@ vendor/etc/ueventd.rc
 vendor/etc/usb_compositions.conf
 vendor/etc/usecaseKvManager.xml
 vendor/etc/usecaseKvManager_arrax.xml
-vendor/firmware/aw87xxx_acf.bin
-vendor/firmware/fs1815.fsm
-vendor/firmware/gmu_gen70000.bin
-vendor/firmware/sipa.bin
-vendor/firmware/st21nfc_fw.bin
-vendor/firmware/st21nfc_fw7.bin
-vendor/firmware/venus.mbn
-vendor/firmware/venus_4mb.mbn
-vendor/firmware/venus_4mb_unsigned.mbn
-vendor/firmware/venus_4mb_v6.mbn
-vendor/firmware/venus_4mb_v7.mbn
-vendor/firmware/venus_unsigned.mbn
-vendor/firmware/venus_v6.mbn
-vendor/firmware/venus_v7.mbn
-vendor/firmware/vpu20_1v.mbn
-vendor/firmware/vpu20_1v_unsigned.mbn
-vendor/firmware/vpu20_4v.mbn
-vendor/firmware/vpu20_4v_unsigned.mbn
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
